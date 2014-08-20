@@ -1,0 +1,148 @@
+{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fswiss\fcharset0 Calibri;}{\f1\fswiss\fcharset0 Courier New;}{\f2\fnil\fcharset2 Wingdings;}{\f3\fnil\fcharset0 Calibri;}}
+{\colortbl ;\red0\green0\blue0;\red0\green0\blue255;}
+{\*\generator Msftedit 5.41.21.2510;}\viewkind4\uc1\pard\cf1\lang9\f0\fs24\par
+ \fs36 Prerequisites \par
+\fs22\tab Install CentOS 6.4 on two machines setup static IP addresses, hostnames and login with root user on both of the machines and add below entries in /etc/hosts file \par
+\f1\fs18 192.168.1.72 hadoop.netweb.com \par
+192.168.1.53 hadoop1.netweb.com \par
+\f0\fs22\tab Setup keyless ssh on both the nodes usong root user. \par
+Filter below ports from firewall \par
+\f1\fs18 -A INPUT -m state --state NEW -m tcp -p tcp --dport 8044 -j ACCEPT \par
+-A INPUT -m state --state NEW -m tcp -p tcp --dport 8042 -j ACCEPT \par
+-A INPUT -m state --state NEW -m tcp -p tcp --dport 8088 -j ACCEPT \par
+-A INPUT -m state --state NEW -m tcp -p tcp --dport 9000 -j ACCEPT \par
+-A INPUT -m state --state NEW -m tcp -p tcp --dport 9001 -j ACCEPT \par
+-A INPUT -m state --state NEW -m tcp -p tcp --dport 40034 -j ACCEPT \par
+-A INPUT -m state --state NEW -m tcp -p tcp --dport 50070 -j ACCEPT \par
+-A INPUT -m state --state NEW -m tcp -p tcp --dport 50030 -j ACCEPT \par
+-A INPUT -m state --state NEW -m tcp -p tcp --dport 50010 -j ACCEPT \par
+-A INPUT -m state --state NEW -m tcp -p tcp --dport 50075 -j ACCEPT \par
+-A INPUT -m state --state NEW -m tcp -p tcp --dport 50060 -j ACCEPT \par
+-A INPUT -m state --state NEW -m tcp -p tcp --dport 19888 -j ACCEPT \par
+-A INPUT -m state --state NEW -m tcp -p tcp --dport 7077 -j ACCEPT \par
+-A INPUT -m state --state NEW -m tcp -p tcp --dport 7078 -j ACCEPT \par
+-A INPUT -m state --state NEW -m tcp -p tcp --dport 18080 -j ACCEPT \par
+-A INPUT -m state --state NEW -m tcp -p tcp --dport 18081 -j ACCEPT \par
+-A INPUT -m state --state NEW -m tcp -p tcp --dport 53411 -j ACCEPT \par
+-A INPUT -m state --state NEW -m tcp -p tcp --dport 9000 -j ACCEPT \par
+\f0\fs36 Setup Apache Hadoop 2.4.0 (Multi Node Cluster) on CentOS \par
+\fs32 Step 1. Install JAVA/JDK \par
+\fs22 Download and Install Java 7 using below commands \par
+\pard\sa58\f2\fs18\'b7\f0  \f1 mkdir /data \par
+\f2\'b7\f1  cd /data \par
+\f2\'b7\f1  wget --no-cookies --no-check-certificate --header "Cookie: gpw_e24=http%3A%2F%2Fwww.oracle.com" "{\field{\*\fldinst{HYPERLINK "http://download.oracle.com/otn-pub/java/jdk/7u25-b15/jdk-7u25-linux-x64.rpm"}}{\fldrslt{\ul\cf2 http://download.oracle.com/otn-pub/java/jdk/7u25-b15/jdk-7u25-linux-x64.rpm}}}\f1\fs18 " \par
+\pard\f2\'b7\f1  rpm -ivh /data/jdk-7u25-linux-x64.rpm \par
+\par
+\f0\fs22 Setting java, javaw, javac, jar, jps commands in alternatives \par
+\pard\sa63\f2\fs18\'b7\f0  \f1 alternatives --install /usr/bin/java java /usr/java/latest/jre/bin/java 50000 \par
+\f2\'b7\f1  alternatives --install /usr/bin/javaws javaws /usr/java/latest/jre/bin/javaws 50000 \par
+\f2\'b7\f1  alternatives --install /usr/bin/javac javac /usr/java/latest/bin/javac 50000 \par
+\f2\'b7\f1  alternatives --install /usr/bin/jar jar /usr/java/latest/bin/jar 50000 \par
+\pard\f2\fs22\'b7\f1  \fs18 alternatives --install /usr/bin/jps jps /usr/java/latest/bin/jps 50000 \par
+\par
+\pard\pagebb\fs22 Setting Java path for current user \par
+\pard\sa58\f2\fs18\'b7\f1  echo "" >> ~/.bash_profile \par
+\f2\'b7\f1  echo "export JAVA_HOME=/usr/java/jdk1.7.0_25" >> ~/.bash_profile \par
+\pard\f2\'b7\f1  echo "export PATH=$PATH:$JAVA_HOME/bin" >> ~/.bash_profile \par
+\par
+\f0\fs32 Step 2. Download Hadoop 2.4.0 \par
+\b\fs22 Execute below commands \b0\par
+\pard\sa58\f2\fs18\'b7\f0  \f1 mkdir /home \par
+\f2\'b7\f1  cd /home \par
+\f2\'b7\f1  wget {\field{\*\fldinst{HYPERLINK "http://supergsego.com/apache/hadoop/common/hadoop-2.4.0/hadoop-2.4.0.tar.gz"}}{\fldrslt{\ul\cf2 http://supergsego.com/apache/hadoop/common/hadoop-2.4.0/hadoop-2.4.0.tar.gz}}}\f1\fs18  \par
+\f2\'b7\f1  tar -xvf hadoop-2.4.0.tar.gz \par
+\pard\f2\fs22\'b7\f1  \fs18 mv hadoop-2.4.0 hadoop \par
+\par
+\f0\fs22 Set environment variable uses by hadoop. Edit \b ~/.bash_profile \b0 file and append following values at end of file by executing below commands. \par
+\pard\sa58\f2\fs18\'b7\f0  \f1 echo "" >> ~/.bash_profile \par
+\f2\'b7\f1  echo "export HADOOP_HOME=/home/hadoop" >> ~/.bash_profile \par
+\f2\'b7\f1  echo "export HADOOP_INSTALL=$HADOOP_HOME" >> ~/.bash_profile \par
+\f2\'b7\f1  echo "export HADOOP_MAPRED_HOME=$HADOOP_HOME" >> ~/.bash_profile \par
+\f2\'b7\f1  echo "export HADOOP_COMMON_HOME=$HADOOP_HOME" >> ~/.bash_profile \par
+\f2\'b7\f1  echo "export HADOOP_HDFS_HOME=$HADOOP_HOME" >> ~/.bash_profile \par
+\f2\'b7\f1  echo "export YARN_HOME=$HADOOP_HOME" >> ~/.bash_profile \par
+\f2\'b7\f1  echo "export HADOOP_COMMON_LIB_NATIVE_DIR=$HADOOP_HOME/lib/native" >> ~/.bash_profile \par
+\pard\f2\'b7\f1  echo "export PATH=$PATH:$HADOOP_HOME/sbin:$HADOOP_HOME/bin" >> ~/.bash_profile \par
+\par
+\b\f0\fs22 Reload Configuration \b0\par
+\f2\fs20\'b7\f0  \f1 source ~/.bash_profile \par
+\par
+\b\f0\fs22 Create hadoop data directories \b0\par
+\f2\fs18\'b7\f0  \f1 mkdir -p /home/hadoop-data/nn /home/hadoop-data/snn /home/hadoop-data/dn /home/hadoop-data/mapred/system /home/hadoop-data/mapred/local \par
+\par
+\f0\fs22 Now edit \b $HADOOP_HOME/etc/hadoop/hadoop-env.sh \b0 file and set JAVA_HOME environment variable in $HADOOP_HOME/etc/hadoop/hadoop-env.sh \par
+\f2\fs20\'b7\f0  \f1 export JAVA_HOME=/usr/java/jdk1.7.0_25/ \par
+\par
+\pard\pagebb\fs22 Edit Configuration Files in \b\f0 $HADOOP_HOME/etc/hadoop/ \b0 directory \par
+\pard\b Append below content to hdfs-site.xml \b0\par
+\f1\fs18 <configuration> \par
+<property> \par
+<name>dfs.replication</name> \par
+<value>1</value> \par
+</property> \par
+<property> \par
+<name>dfs.name.dir</name> \par
+<value>file:///home/hadoop-data/nn</value> \par
+</property> \par
+<property> \par
+<name>dfs.data.dir</name> \par
+<value>file:///home/hadoop-data/dn</value> \par
+</property> \par
+<property> \par
+<name>dfs.namenode.checkpoint.dir</name> \par
+<value>file:///home/hadoop-data/snn</value> \par
+</property> \par
+</configuration> \par
+\b\f0\fs22 Append below content to core-site.xml \b0\par
+\f1\fs18 <configuration> \par
+<property> \par
+<name>fs.default.name</name> \par
+<value>hdfs://hadoop.netweb.com:9000</value> \par
+</property> \par
+</configuration> \par
+\b\f0\fs22 Append below content to yarn-site.xml \b0\par
+\f1\fs18 <configuration> \par
+<property> \par
+<name>yarn.nodemanager.aux-services</name> \par
+<value>mapreduce_shuffle</value> \par
+</property> \par
+<property> \par
+<name>yarn.nodemanager.aux-services.mapreduce.shuffle.class</name> \par
+<value>org.apache.hadoop.mapred.ShuffleHandler</value> \par
+</property> \par
+</configuration> \par
+\b\f0\fs22 Append below content to mapred-site.xml \b0\par
+\f1\fs20 <configuration> \par
+<property> \par
+<name>mapreduce.framework.name</name> \par
+<value>yarn</value> \par
+</property> \par
+</configuration> \par
+\pard\pagebb\b\f0\fs22 Append host names of all the slave nodes in slaves file \b0\par
+\pard\f1\fs18 hadoop.netweb.com \par
+hadoop1.netweb.com \par
+\b\f0\fs22 [Follow all same STEP 1 and STEP 2 on other node (hadoop1.netweb.com)] \b0\par
+\b Format NameNode \b0\par
+After Installation is done format namenode from the master node (hadoop.netweb.com) using below command. \par
+\f2\fs20\'b7\f0  \f1 hdfs namenode -format \par
+\par
+\b\f0\fs22 Start/Stop Hadoop Cluster \b0\par
+Start/Stop HDFS using below commands \par
+\pard\sa50\f2\fs20\'b7\f0  \f1 sh $HADOOP_HOME/sbin/start-dfs.sh \par
+\pard\f2\'b7\f1  sh $HADOOP_HOME/sbin/stop-dfs.sh \par
+\par
+\f0\fs22 Start/Stop YARN services using below commands \par
+\pard\sa50\f2\fs20\'b7\f0  \f1 sh $HADOOP_HOME/sbin/start-yarn.sh \par
+\pard\f2\'b7\f1  sh $HADOOP_HOME/sbin/stop-yarn.sh \par
+\par
+\b\f0\fs22 Access Hadoop Services in Browser \b0\par
+\pard\sa58\f2\fs18\'b7\f0  \f1 Name Node : {\field{\*\fldinst{HYPERLINK "http://hadoop.netweb.com:50070/"}}{\fldrslt{\ul\cf2 http://hadoop.netweb.com:50070/}}}\f1\fs18  \par
+\f2\'b7\f0  \f1 YARN Services : {\field{\*\fldinst{HYPERLINK "http://hadoop.netweb.com:8088/"}}{\fldrslt{\ul\cf2 http://hadoop.netweb.com:8088/}}}\f1\fs18  \par
+\f2\'b7\f0  \f1 Secondary Name Node : {\field{\*\fldinst{HYPERLINK "http://hadoop.netweb.com:50090/"}}{\fldrslt{\ul\cf2 http://hadoop.netweb.com:50090/}}}\f1\fs18  \par
+\f2\'b7\f0  \f1 Data Node 1 : {\field{\*\fldinst{HYPERLINK "http://hadoop.netweb.com:50075/"}}{\fldrslt{\ul\cf2 http://hadoop.netweb.com:50075/}}}\f1\fs18  \par
+\pard\f2\'b7\f0  \f1 Data Node 2 : {\field{\*\fldinst{HYPERLINK "http://hadoop1.netweb.com:50075/"}}{\fldrslt{\ul\cf2 http://hadoop1.netweb.com:50075/}}}\f1\fs18  \par
+\par
+\par
+\pard\sa200\sl276\slmult1\b\f0\fs22 [Repeat same above steps for other node (hadoop1.netweb.com)] \cf0\b0\f3\par
+}
+ 
