@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+
+<project  default="create_run_jar" name="Create Runnable Jar for Project Random_Number with Jar-in-Jar Loader">
+    <!--this file was created by Eclipse Runnable JAR Export Wizard-->
+    <!--ANT 1.7 is required                                        -->
+    <description>
+        simple example build file
+    </description>
+  <!-- set global properties for this build -->
+  <property name="src" location="src"/>
+  <property name="build" location="build"/>
+  <property name="dist"  location="dist"/>
+  <property name="lib"     value="lib"/>
+	
+  <property file="configuration.properties" />
+	
+  <path id="classpath">
+        <fileset dir="lib">
+      <include name="**/*.jar"/>
+        </fileset>
+    </path>  
+
+         
+ <target name="compile">
+	<mkdir dir="build"/>	
+        <javac destdir="build" source="1.7" target="1.7">
+            <src path="src"/>
+            <classpath refid="classpath"/>
+        </javac>
+</target>
+
+  <target name="clean"
+        description="clean up" >
+    <!-- Delete the ${build} and ${dist} directory trees -->
+    <delete dir="build"/>
+    <delete dir="target"/>
+  </target>
+  
+<target name="dist">
+ <mkdir dir="target"/>
+	<jar destfile="target/DBFetch.jar"
+     basedir="build">
+     <fileset dir="build"/>
+     <zipgroupfileset dir="lib" includes="**/*.jar"/>
+     <manifest>
+      <attribute name="Main-Class" value="com.db.local.DBConnection"/>
+     </manifest>
+</jar>
+</target>
+
+
+</project>

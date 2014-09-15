@@ -1,0 +1,100 @@
+null,10893635,Success,Pull3BureauCreditReport
+null,10893635,Success,GetTransriskScore (Experian)
+null,10893635,Success,GetTransriskScore (Equifax)
+null,10893635,Success,GetTransriskScore (TransUnion)
+null,10893635,Success,PullAutoInsuranceScore
+null,10893635,Success,Subscribe (TransUnion)
+null,10893442,Success,GetQuestionsFromReport
+null,10893443,Success,GetQuestionsFromReport
+null,10893444,Success,GetQuestionsFromReport
+null,10893445,Success,GetQuestionsFromReport
+null,10893446,Success,GetQuestionsFromReport
+null,10893447,Success,GetQuestionsFromReport
+null,10893448,Success,GetQuestionsFromReport
+null,10893449,Success,GetQuestionsFromReport
+null,10893449,Success,Pull3BureauCreditReport
+null,10893449,Success,PullTransRiskScore
+null,10893449,Success,PullAutoInsuranceScore
+null,10893449,Success,PullHomeInsuranceScore
+null,10893449,Success,Subscribe (Experian)
+null,10893449,Success,Subscribe (Equifax)
+null,10893449,Success,Subscribe (TransUnion)
+null,10893450,Success,GetQuestionsFromReport
+null,10893450,Success,Pull3BureauCreditReport
+null,10893450,Success,PullTransRiskScore
+null,10893450,Success,PullAutoInsuranceScore
+null,10893450,Success,PullHomeInsuranceScore
+null,10893450,Failure,Subscribe (Experian)
+null,10893450,Failure,Subscribe (Equifax)
+null,10893450,Failure,Subscribe (TransUnion)
+null,10893451,Success,GetQuestionsFromReport
+null,10893451,Success,Pull3BureauCreditReport
+null,10893451,Success,PullTransRiskScore
+null,10893451,Success,PullAutoInsuranceScore
+null,10893451,Success,PullHomeInsuranceScore
+null,10893451,Success,Subscribe (Experian)
+null,10893451,Success,Subscribe (Equifax)
+null,10893451,Success,Subscribe (TransUnion)
+null,10893452,Success,GetQuestionsFromReport
+null,10893452,Success,Pull3BureauCreditReport
+null,10893452,Success,PullTransRiskScore
+null,10893452,Success,PullAutoInsuranceScore
+null,10893452,Success,PullHomeInsuranceScore
+null,10893452,Success,Subscribe (Experian)
+null,10893452,Success,Subscribe (Equifax)
+null,10893452,Success,Subscribe (TransUnion)
+null,10893453,Success,GetQuestionsFromReport
+null,10893453,Success,Pull3BureauCreditReport
+null,10893453,Success,PullTransRiskScore
+null,10893453,Success,PullAutoInsuranceScore
+null,10893453,Success,PullHomeInsuranceScore
+null,10893453,Success,Subscribe (Experian)
+null,10893453,Success,Subscribe (Equifax)
+null,10893453,Success,Subscribe (TransUnion)
+null,10893454,Success,GetQuestionsFromReport
+null,10893454,Success,Pull3BureauCreditReport
+null,10893454,Success,PullTransRiskScore
+null,10893454,Success,PullAutoInsuranceScore
+null,10893454,Success,PullHomeInsuranceScore
+null,10893454,Success,Subscribe (Experian)
+null,10893454,Success,Subscribe (Equifax)
+null,10893454,Success,Subscribe (TransUnion)
+null,10893455,Success,GetQuestionsFromReport
+null,10893455,Success,Pull3BureauCreditReport
+null,10893455,Success,PullTransRiskScore
+null,10893455,Success,PullAutoInsuranceScore
+null,10893455,Success,PullHomeInsuranceScore
+null,10893455,Success,Subscribe (Experian)
+null,10893455,Success,Subscribe (Equifax)
+null,10893455,Success,Subscribe (TransUnion)
+null,10893456,Success,GetQuestionsFromReport
+null,10893456,Success,Pull3BureauCreditReport
+null,10893456,Success,PullTransRiskScore
+null,10893456,Success,PullAutoInsuranceScore
+null,10893456,Success,PullHomeInsuranceScore
+null,10893456,Success,Subscribe (Experian)
+null,10893456,Success,Subscribe (Equifax)
+null,10893456,Success,Subscribe (TransUnion)
+null,10893457,Success,GetQuestionsFromReport
+null,10893457,Success,Pull3BureauCreditReport
+null,10893457,Success,PullTransRiskScore
+null,10893457,Success,PullAutoInsuranceScore
+null,10893457,Success,PullHomeInsuranceScore
+null,10893457,Success,Subscribe (Experian)
+null,10893457,Success,Subscribe (Equifax)
+null,10893457,Success,Subscribe (TransUnion)
+null,10893458,Success,GetQuestionsFromReport
+null,10893458,Success,Pull3BureauCreditReport
+null,10893458,Success,PullTransRiskScore
+null,10893458,Success,PullAutoInsuranceScore
+null,10893458,Success,PullHomeInsuranceScore
+null,10893458,Success,Subscribe (Experian)
+null,10893458,Success,Subscribe (Equifax)
+null,10893458,Success,Subscribe (TransUnion)
+null,10893459,Success,GetQuestionsFromReport
+null,10893459,Success,Pull3BureauCreditReport
+null,10893459,Success,PullTransRiskScore
+null,10893459,Success,PullAutoInsuranceScore
+null,10893459,Success,PullHomeInsuranceScore
+null,10893459,Success,Subscribe (Experian)
+null,10893459,Success,Subscribe (Equifax)
