@@ -1,0 +1,6 @@
+2012-02-18 15:00:00,Subscribe (TransUnion),1
+2012-02-18 15:00:00,Pull3BureauCreditReport,1
+2012-02-18 15:00:00,GetTransriskScore (TransUnion),1
+2012-02-18 15:00:00,PullAutoInsuranceScore,1
+2012-02-18 15:00:00,GetTransriskScore (Experian),1
+2012-02-18 15:00:00,GetTransriskScore (Equifax),1

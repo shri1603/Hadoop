@@ -1,0 +1,611 @@
+Thu Feb 13 00:00:00 IST 2014,10893473,Success,PullCreditReport (TransUnion),463
+Thu Feb 13 00:00:00 IST 2014,10893473,Success,GetTransriskScore (TransUnion),734
+Thu Feb 13 00:00:00 IST 2014,10893473,Success,PullHomeInsuranceScore,954
+Thu Feb 13 00:00:00 IST 2014,10893473,Success,Subscribe (TransUnion),1023
+Thu Feb 13 00:00:00 IST 2014,10893474,Success,PullCreditReport (TransUnion),556
+Thu Feb 13 00:00:00 IST 2014,10893474,Success,GetTransriskScore (TransUnion),887
+Thu Feb 13 00:00:00 IST 2014,10893474,Success,PullHomeInsuranceScore,952
+Thu Feb 13 00:00:00 IST 2014,10893474,Success,Subscribe (TransUnion),491
+Thu Feb 13 00:00:00 IST 2014,10893475,Success,Pull3BureauCreditReport,965
+Thu Feb 13 00:00:00 IST 2014,10893475,Success,GetTransriskScore (Experian),901
+Thu Feb 13 00:00:00 IST 2014,10893475,Success,GetTransriskScore (Equifax),958
+Thu Feb 13 00:00:00 IST 2014,10893475,Success,GetTransriskScore (TransUnion),311
+Thu Feb 13 00:00:00 IST 2014,10893475,Success,PullAutoInsuranceScore,601
+Thu Feb 13 00:00:00 IST 2014,10893475,Success,PullHomeInsuranceScore,291
+Thu Feb 13 00:00:00 IST 2014,10893475,Success,Subscribe (TransUnion),192
+Thu Feb 13 00:00:00 IST 2014,10893475,Success,Subscribe (Experian),550
+Thu Feb 13 00:00:00 IST 2014,10893475,Success,Subscribe (Equifax),496
+Thu Feb 13 00:00:00 IST 2014,10893476,Success,PullCreditReport (TransUnion),823
+Thu Feb 13 00:00:00 IST 2014,10893476,Success,GetTransriskScore (TransUnion),528
+Thu Feb 13 00:00:00 IST 2014,10893476,Success,PullAutoInsuranceScore,344
+Thu Feb 13 00:00:00 IST 2014,10893476,Success,Subscribe (TransUnion),640
+Thu Feb 13 00:00:00 IST 2014,10893477,Success,PullCreditReport (TransUnion),874
+Thu Feb 13 00:00:00 IST 2014,10893477,Success,GetTransriskScore (TransUnion),313
+Thu Feb 13 00:00:00 IST 2014,10893477,Success,PullAutoInsuranceScore,263
+Thu Feb 13 00:00:00 IST 2014,10893477,Success,Subscribe (TransUnion),653
+Thu Feb 13 00:00:00 IST 2014,10893477,Success,GetQuestionsFromTUBureauData,1379
+Thu Feb 13 00:00:00 IST 2014,10893477,Success,Subscribe (TransUnion),797
+Thu Feb 13 00:00:00 IST 2014,10893477,Success,UnsubscribeRequest (TransUnion),420
+Thu Feb 13 00:00:00 IST 2014,10893478,Success,Subscribe (TransUnion),367
+Thu Feb 13 00:00:00 IST 2014,10893478,Success,Subscribe (Experian),267
+Thu Feb 13 00:00:00 IST 2014,10893478,Success,Subscribe (Equifax),150
+Thu Feb 13 00:00:00 IST 2014,10893479,Success,Subscribe (TransUnion),940
+Thu Feb 13 00:00:00 IST 2014,10893479,Success,Subscribe (Experian),330
+Thu Feb 13 00:00:00 IST 2014,10893479,Success,Subscribe (Equifax),145
+Thu Feb 13 00:00:00 IST 2014,10893479,Success,GetQuestionsFromReport,333
+Thu Feb 13 00:00:00 IST 2014,10893479,Success,Pull3BureauCreditReport,1093
+Thu Feb 13 00:00:00 IST 2014,10893479,Success,GetTransriskScore (Experian),915
+Thu Feb 13 00:00:00 IST 2014,10893479,Success,GetTransriskScore (Equifax),68
+Thu Feb 13 00:00:00 IST 2014,10893479,Success,GetTransriskScore (TransUnion),227
+Thu Feb 13 00:00:00 IST 2014,10893479,Success,PullAutoInsuranceScore,248
+Thu Feb 13 00:00:00 IST 2014,10893479,Success,PullHomeInsuranceScore,634
+Thu Feb 13 00:00:00 IST 2014,10893479,Success,Subscribe (TransUnion),758
+Thu Feb 13 00:00:00 IST 2014,10893479,Success,UnsubscribeRequest (TransUnion),371
+Thu Feb 13 00:00:00 IST 2014,10893479,Success,Subscribe (Experian),195
+Thu Feb 13 00:00:00 IST 2014,10893479,Success,UnsubscribeRequest (Experian),996
+Thu Feb 13 00:00:00 IST 2014,10893479,Success,Subscribe (Equifax),280
+Thu Feb 13 00:00:00 IST 2014,10893479,Success,UnsubscribeRequest (Equifax),727
+Thu Feb 13 00:00:00 IST 2014,10893473,Success,PullCreditReport (TransUnion),463
+Thu Feb 13 00:00:00 IST 2014,10893473,Success,GetTransriskScore (TransUnion),734
+Thu Feb 13 00:00:00 IST 2014,10893473,Success,PullHomeInsuranceScore,954
+Thu Feb 13 00:00:00 IST 2014,10893473,Success,Subscribe (TransUnion),1023
+Thu Feb 13 00:00:00 IST 2014,10893474,Success,PullCreditReport (TransUnion),556
+Thu Feb 13 00:00:00 IST 2014,10893474,Success,GetTransriskScore (TransUnion),887
+Thu Feb 13 00:00:00 IST 2014,10893474,Success,PullHomeInsuranceScore,952
+Thu Feb 13 00:00:00 IST 2014,10893474,Success,Subscribe (TransUnion),491
+Thu Feb 13 00:00:00 IST 2014,10893475,Success,Pull3BureauCreditReport,965
+Thu Feb 13 00:00:00 IST 2014,10893475,Success,GetTransriskScore (Experian),901
+Thu Feb 13 00:00:00 IST 2014,10893475,Success,GetTransriskScore (Equifax),958
+Thu Feb 13 00:00:00 IST 2014,10893475,Success,GetTransriskScore (TransUnion),311
+Thu Feb 13 00:00:00 IST 2014,10893475,Success,PullAutoInsuranceScore,601
+Thu Feb 13 00:00:00 IST 2014,10893475,Success,PullHomeInsuranceScore,291
+Thu Feb 13 00:00:00 IST 2014,10893475,Success,Subscribe (TransUnion),192
+Thu Feb 13 00:00:00 IST 2014,10893475,Success,Subscribe (Experian),550
+Thu Feb 13 00:00:00 IST 2014,10893475,Success,Subscribe (Equifax),496
+Thu Feb 13 00:00:00 IST 2014,10893476,Success,PullCreditReport (TransUnion),823
+Thu Feb 13 00:00:00 IST 2014,10893476,Success,GetTransriskScore (TransUnion),528
+Thu Feb 13 00:00:00 IST 2014,10893476,Success,PullAutoInsuranceScore,344
+Thu Feb 13 00:00:00 IST 2014,10893476,Success,Subscribe (TransUnion),640
+Thu Feb 13 00:00:00 IST 2014,10893477,Success,PullCreditReport (TransUnion),874
+Thu Feb 13 00:00:00 IST 2014,10893477,Success,GetTransriskScore (TransUnion),313
+Thu Feb 13 00:00:00 IST 2014,10893477,Success,PullAutoInsuranceScore,263
+Thu Feb 13 00:00:00 IST 2014,10893477,Success,Subscribe (TransUnion),653
+Thu Feb 13 00:00:00 IST 2014,10893477,Success,GetQuestionsFromTUBureauData,1379
+Thu Feb 13 00:00:00 IST 2014,10893477,Success,Subscribe (TransUnion),797
+Thu Feb 13 00:00:00 IST 2014,10893477,Success,UnsubscribeRequest (TransUnion),420
+Thu Feb 13 00:00:00 IST 2014,10893478,Success,Subscribe (TransUnion),367
+Thu Feb 13 00:00:00 IST 2014,10893478,Success,Subscribe (Experian),267
+Thu Feb 13 00:00:00 IST 2014,10893478,Success,Subscribe (Equifax),150
+Thu Feb 13 00:00:00 IST 2014,10893479,Success,Subscribe (TransUnion),940
+Thu Feb 13 00:00:00 IST 2014,10893479,Success,Subscribe (Experian),330
+Thu Feb 13 00:00:00 IST 2014,10893479,Success,Subscribe (Equifax),145
+Thu Feb 13 00:00:00 IST 2014,10893479,Success,GetQuestionsFromReport,333
+Thu Feb 13 00:00:00 IST 2014,10893479,Success,Pull3BureauCreditReport,1093
+Thu Feb 13 00:00:00 IST 2014,10893479,Success,GetTransriskScore (Experian),915
+Thu Feb 13 00:00:00 IST 2014,10893479,Success,GetTransriskScore (Equifax),68
+Thu Feb 13 00:00:00 IST 2014,10893479,Success,GetTransriskScore (TransUnion),227
+Thu Feb 13 00:00:00 IST 2014,10893479,Success,PullAutoInsuranceScore,248
+Thu Feb 13 00:00:00 IST 2014,10893479,Success,PullHomeInsuranceScore,634
+Thu Feb 13 00:00:00 IST 2014,10893479,Success,Subscribe (TransUnion),758
+Thu Feb 13 00:00:00 IST 2014,10893479,Success,UnsubscribeRequest (TransUnion),371
+Thu Feb 13 00:00:00 IST 2014,10893479,Success,Subscribe (Experian),195
+Thu Feb 13 00:00:00 IST 2014,10893479,Success,UnsubscribeRequest (Experian),996
+Thu Feb 13 00:00:00 IST 2014,10893479,Success,Subscribe (Equifax),280
+Thu Feb 13 00:00:00 IST 2014,10893479,Success,UnsubscribeRequest (Equifax),727
+Thu Feb 13 00:00:00 IST 2014,10893473,Success,PullCreditReport (TransUnion),463
+Thu Feb 13 00:00:00 IST 2014,10893473,Success,GetTransriskScore (TransUnion),734
+Thu Feb 13 00:00:00 IST 2014,10893473,Success,PullHomeInsuranceScore,954
+Thu Feb 13 00:00:00 IST 2014,10893473,Success,Subscribe (TransUnion),1023
+Thu Feb 13 00:00:00 IST 2014,10893474,Success,PullCreditReport (TransUnion),556
+Thu Feb 13 00:00:00 IST 2014,10893474,Success,GetTransriskScore (TransUnion),887
+Thu Feb 13 00:00:00 IST 2014,10893474,Success,PullHomeInsuranceScore,952
+Thu Feb 13 00:00:00 IST 2014,10893474,Success,Subscribe (TransUnion),491
+Thu Feb 13 00:00:00 IST 2014,10893475,Success,Pull3BureauCreditReport,965
+Thu Feb 13 00:00:00 IST 2014,10893475,Success,GetTransriskScore (Experian),901
+Thu Feb 13 00:00:00 IST 2014,10893475,Success,GetTransriskScore (Equifax),958
+Thu Feb 13 00:00:00 IST 2014,10893475,Success,GetTransriskScore (TransUnion),311
+Thu Feb 13 00:00:00 IST 2014,10893475,Success,PullAutoInsuranceScore,601
+Thu Feb 13 00:00:00 IST 2014,10893475,Success,PullHomeInsuranceScore,291
+Thu Feb 13 00:00:00 IST 2014,10893475,Success,Subscribe (TransUnion),192
+Thu Feb 13 00:00:00 IST 2014,10893475,Success,Subscribe (Experian),550
+Thu Feb 13 00:00:00 IST 2014,10893475,Success,Subscribe (Equifax),496
+Thu Feb 13 00:00:00 IST 2014,10893476,Success,PullCreditReport (TransUnion),823
+Thu Feb 13 00:00:00 IST 2014,10893476,Success,GetTransriskScore (TransUnion),528
+Thu Feb 13 00:00:00 IST 2014,10893476,Success,PullAutoInsuranceScore,344
+Thu Feb 13 00:00:00 IST 2014,10893476,Success,Subscribe (TransUnion),640
+Thu Feb 13 00:00:00 IST 2014,10893477,Success,PullCreditReport (TransUnion),874
+Thu Feb 13 00:00:00 IST 2014,10893477,Success,GetTransriskScore (TransUnion),313
+Thu Feb 13 00:00:00 IST 2014,10893477,Success,PullAutoInsuranceScore,263
+Thu Feb 13 00:00:00 IST 2014,10893477,Success,Subscribe (TransUnion),653
+Thu Feb 13 00:00:00 IST 2014,10893477,Success,GetQuestionsFromTUBureauData,1379
+Thu Feb 13 00:00:00 IST 2014,10893477,Success,Subscribe (TransUnion),797
+Thu Feb 13 00:00:00 IST 2014,10893477,Success,UnsubscribeRequest (TransUnion),420
+Thu Feb 13 00:00:00 IST 2014,10893478,Success,Subscribe (TransUnion),367
+Thu Feb 13 00:00:00 IST 2014,10893478,Success,Subscribe (Experian),267
+Thu Feb 13 00:00:00 IST 2014,10893478,Success,Subscribe (Equifax),150
+Thu Feb 13 00:00:00 IST 2014,10893479,Success,Subscribe (TransUnion),940
+Thu Feb 13 00:00:00 IST 2014,10893479,Success,Subscribe (Experian),330
+Thu Feb 13 00:00:00 IST 2014,10893479,Success,Subscribe (Equifax),145
+Thu Feb 13 00:00:00 IST 2014,10893479,Success,GetQuestionsFromReport,333
+Thu Feb 13 00:00:00 IST 2014,10893479,Success,Pull3BureauCreditReport,1093
+Thu Feb 13 00:00:00 IST 2014,10893479,Success,GetTransriskScore (Experian),915
+Thu Feb 13 00:00:00 IST 2014,10893479,Success,GetTransriskScore (Equifax),68
+Thu Feb 13 00:00:00 IST 2014,10893479,Success,GetTransriskScore (TransUnion),227
+Thu Feb 13 00:00:00 IST 2014,10893479,Success,PullAutoInsuranceScore,248
+Thu Feb 13 00:00:00 IST 2014,10893479,Success,PullHomeInsuranceScore,634
+Thu Feb 13 00:00:00 IST 2014,10893479,Success,Subscribe (TransUnion),758
+Thu Feb 13 00:00:00 IST 2014,10893479,Success,UnsubscribeRequest (TransUnion),371
+Thu Feb 13 00:00:00 IST 2014,10893479,Success,Subscribe (Experian),195
+Thu Feb 13 00:00:00 IST 2014,10893479,Success,UnsubscribeRequest (Experian),996
+Thu Feb 13 00:00:00 IST 2014,10893479,Success,Subscribe (Equifax),280
+Thu Feb 13 00:00:00 IST 2014,10893479,Success,UnsubscribeRequest (Equifax),727
+Thu Feb 13 00:00:00 IST 2014,10893473,Success,PullCreditReport (TransUnion),463
+Thu Feb 13 00:00:00 IST 2014,10893473,Success,GetTransriskScore (TransUnion),734
+Thu Feb 13 00:00:00 IST 2014,10893473,Success,PullHomeInsuranceScore,954
+Thu Feb 13 00:00:00 IST 2014,10893473,Success,Subscribe (TransUnion),1023
+Thu Feb 13 00:00:00 IST 2014,10893474,Success,PullCreditReport (TransUnion),556
+Thu Feb 13 00:00:00 IST 2014,10893474,Success,GetTransriskScore (TransUnion),887
+Thu Feb 13 00:00:00 IST 2014,10893474,Success,PullHomeInsuranceScore,952
+Thu Feb 13 00:00:00 IST 2014,10893474,Success,Subscribe (TransUnion),491
+Thu Feb 13 00:00:00 IST 2014,10893475,Success,Pull3BureauCreditReport,965
+Thu Feb 13 00:00:00 IST 2014,10893475,Success,GetTransriskScore (Experian),901
+Thu Feb 13 00:00:00 IST 2014,10893475,Success,GetTransriskScore (Equifax),958
+Thu Feb 13 00:00:00 IST 2014,10893475,Success,GetTransriskScore (TransUnion),311
+Thu Feb 13 00:00:00 IST 2014,10893475,Success,PullAutoInsuranceScore,601
+Thu Feb 13 00:00:00 IST 2014,10893475,Success,PullHomeInsuranceScore,291
+Thu Feb 13 00:00:00 IST 2014,10893475,Success,Subscribe (TransUnion),192
+Thu Feb 13 00:00:00 IST 2014,10893475,Success,Subscribe (Experian),550
+Thu Feb 13 00:00:00 IST 2014,10893475,Success,Subscribe (Equifax),496
+Thu Feb 13 00:00:00 IST 2014,10893476,Success,PullCreditReport (TransUnion),823
+Thu Feb 13 00:00:00 IST 2014,10893476,Success,GetTransriskScore (TransUnion),528
+Thu Feb 13 00:00:00 IST 2014,10893476,Success,PullAutoInsuranceScore,344
+Thu Feb 13 00:00:00 IST 2014,10893476,Success,Subscribe (TransUnion),640
+Thu Feb 13 00:00:00 IST 2014,10893477,Success,PullCreditReport (TransUnion),874
+Thu Feb 13 00:00:00 IST 2014,10893477,Success,GetTransriskScore (TransUnion),313
+Thu Feb 13 00:00:00 IST 2014,10893477,Success,PullAutoInsuranceScore,263
+Thu Feb 13 00:00:00 IST 2014,10893477,Success,Subscribe (TransUnion),653
+Thu Feb 13 00:00:00 IST 2014,10893477,Success,GetQuestionsFromTUBureauData,1379
+Thu Feb 13 00:00:00 IST 2014,10893477,Success,Subscribe (TransUnion),797
+Thu Feb 13 00:00:00 IST 2014,10893477,Success,UnsubscribeRequest (TransUnion),420
+Thu Feb 13 00:00:00 IST 2014,10893478,Success,Subscribe (TransUnion),367
+Thu Feb 13 00:00:00 IST 2014,10893478,Success,Subscribe (Experian),267
+Thu Feb 13 00:00:00 IST 2014,10893478,Success,Subscribe (Equifax),150
+Thu Feb 13 00:00:00 IST 2014,10893479,Success,Subscribe (TransUnion),940
+Thu Feb 13 00:00:00 IST 2014,10893479,Success,Subscribe (Experian),330
+Thu Feb 13 00:00:00 IST 2014,10893479,Success,Subscribe (Equifax),145
+Thu Feb 13 00:00:00 IST 2014,10893479,Success,GetQuestionsFromReport,333
+Thu Feb 13 00:00:00 IST 2014,10893479,Success,Pull3BureauCreditReport,1093
+Thu Feb 13 00:00:00 IST 2014,10893479,Success,GetTransriskScore (Experian),915
+Thu Feb 13 00:00:00 IST 2014,10893479,Success,GetTransriskScore (Equifax),68
+Thu Feb 13 00:00:00 IST 2014,10893479,Success,GetTransriskScore (TransUnion),227
+Thu Feb 13 00:00:00 IST 2014,10893479,Success,PullAutoInsuranceScore,248
+Thu Feb 13 00:00:00 IST 2014,10893479,Success,PullHomeInsuranceScore,634
+Thu Feb 13 00:00:00 IST 2014,10893479,Success,Subscribe (TransUnion),758
+Thu Feb 13 00:00:00 IST 2014,10893479,Success,UnsubscribeRequest (TransUnion),371
+Thu Feb 13 00:00:00 IST 2014,10893479,Success,Subscribe (Experian),195
+Thu Feb 13 00:00:00 IST 2014,10893479,Success,UnsubscribeRequest (Experian),996
+Thu Feb 13 00:00:00 IST 2014,10893479,Success,Subscribe (Equifax),280
+Thu Feb 13 00:00:00 IST 2014,10893479,Success,UnsubscribeRequest (Equifax),727
+Thu Feb 13 00:00:00 IST 2014,10893473,Success,PullCreditReport (TransUnion),463
+Thu Feb 13 00:00:00 IST 2014,10893473,Success,GetTransriskScore (TransUnion),734
+Thu Feb 13 00:00:00 IST 2014,10893473,Success,PullHomeInsuranceScore,954
+Thu Feb 13 00:00:00 IST 2014,10893473,Success,Subscribe (TransUnion),1023
+Thu Feb 13 00:00:00 IST 2014,10893474,Success,PullCreditReport (TransUnion),556
+Thu Feb 13 00:00:00 IST 2014,10893474,Success,GetTransriskScore (TransUnion),887
+Thu Feb 13 00:00:00 IST 2014,10893474,Success,PullHomeInsuranceScore,952
+Thu Feb 13 00:00:00 IST 2014,10893474,Success,Subscribe (TransUnion),491
+Thu Feb 13 00:00:00 IST 2014,10893475,Success,Pull3BureauCreditReport,965
+Thu Feb 13 00:00:00 IST 2014,10893475,Success,GetTransriskScore (Experian),901
+Thu Feb 13 00:00:00 IST 2014,10893475,Success,GetTransriskScore (Equifax),958
+Thu Feb 13 00:00:00 IST 2014,10893475,Success,GetTransriskScore (TransUnion),311
+Thu Feb 13 00:00:00 IST 2014,10893475,Success,PullAutoInsuranceScore,601
+Thu Feb 13 00:00:00 IST 2014,10893475,Success,PullHomeInsuranceScore,291
+Thu Feb 13 00:00:00 IST 2014,10893475,Success,Subscribe (TransUnion),192
+Thu Feb 13 00:00:00 IST 2014,10893475,Success,Subscribe (Experian),550
+Thu Feb 13 00:00:00 IST 2014,10893475,Success,Subscribe (Equifax),496
+Thu Feb 13 00:00:00 IST 2014,10893476,Success,PullCreditReport (TransUnion),823
+Thu Feb 13 00:00:00 IST 2014,10893476,Success,GetTransriskScore (TransUnion),528
+Thu Feb 13 00:00:00 IST 2014,10893476,Success,PullAutoInsuranceScore,344
+Thu Feb 13 00:00:00 IST 2014,10893476,Success,Subscribe (TransUnion),640
+Thu Feb 13 00:00:00 IST 2014,10893477,Success,PullCreditReport (TransUnion),874
+Thu Feb 13 00:00:00 IST 2014,10893477,Success,GetTransriskScore (TransUnion),313
+Thu Feb 13 00:00:00 IST 2014,10893477,Success,PullAutoInsuranceScore,263
+Thu Feb 13 00:00:00 IST 2014,10893477,Success,Subscribe (TransUnion),653
+Thu Feb 13 00:00:00 IST 2014,10893477,Success,GetQuestionsFromTUBureauData,1379
+Thu Feb 13 00:00:00 IST 2014,10893477,Success,Subscribe (TransUnion),797
+Thu Feb 13 00:00:00 IST 2014,10893477,Success,UnsubscribeRequest (TransUnion),420
+Thu Feb 13 00:00:00 IST 2014,10893478,Success,Subscribe (TransUnion),367
+Thu Feb 13 00:00:00 IST 2014,10893478,Success,Subscribe (Experian),267
+Thu Feb 13 00:00:00 IST 2014,10893478,Success,Subscribe (Equifax),150
+Thu Feb 13 00:00:00 IST 2014,10893479,Success,Subscribe (TransUnion),940
+Thu Feb 13 00:00:00 IST 2014,10893479,Success,Subscribe (Experian),330
+Thu Feb 13 00:00:00 IST 2014,10893479,Success,Subscribe (Equifax),145
+Thu Feb 13 00:00:00 IST 2014,10893479,Success,GetQuestionsFromReport,333
+Thu Feb 13 00:00:00 IST 2014,10893479,Success,Pull3BureauCreditReport,1093
+Thu Feb 13 00:00:00 IST 2014,10893479,Success,GetTransriskScore (Experian),915
+Thu Feb 13 00:00:00 IST 2014,10893479,Success,GetTransriskScore (Equifax),68
+Thu Feb 13 00:00:00 IST 2014,10893479,Success,GetTransriskScore (TransUnion),227
+Thu Feb 13 00:00:00 IST 2014,10893479,Success,PullAutoInsuranceScore,248
+Thu Feb 13 00:00:00 IST 2014,10893479,Success,PullHomeInsuranceScore,634
+Thu Feb 13 00:00:00 IST 2014,10893479,Success,Subscribe (TransUnion),758
+Thu Feb 13 00:00:00 IST 2014,10893479,Success,UnsubscribeRequest (TransUnion),371
+Thu Feb 13 00:00:00 IST 2014,10893479,Success,Subscribe (Experian),195
+Thu Feb 13 00:00:00 IST 2014,10893479,Success,UnsubscribeRequest (Experian),996
+Thu Feb 13 00:00:00 IST 2014,10893479,Success,Subscribe (Equifax),280
+Thu Feb 13 00:00:00 IST 2014,10893479,Success,UnsubscribeRequest (Equifax),727
+Thu Feb 13 00:00:00 IST 2014,10893473,Success,PullCreditReport (TransUnion),463
+Thu Feb 13 00:00:00 IST 2014,10893473,Success,GetTransriskScore (TransUnion),734
+Thu Feb 13 00:00:00 IST 2014,10893473,Success,PullHomeInsuranceScore,954
+Thu Feb 13 00:00:00 IST 2014,10893473,Success,Subscribe (TransUnion),1023
+Thu Feb 13 00:00:00 IST 2014,10893474,Success,PullCreditReport (TransUnion),556
+Thu Feb 13 00:00:00 IST 2014,10893474,Success,GetTransriskScore (TransUnion),887
+Thu Feb 13 00:00:00 IST 2014,10893474,Success,PullHomeInsuranceScore,952
+Thu Feb 13 00:00:00 IST 2014,10893474,Success,Subscribe (TransUnion),491
+Thu Feb 13 00:00:00 IST 2014,10893475,Success,Pull3BureauCreditReport,965
+Thu Feb 13 00:00:00 IST 2014,10893475,Success,GetTransriskScore (Experian),901
+Thu Feb 13 00:00:00 IST 2014,10893475,Success,GetTransriskScore (Equifax),958
+Thu Feb 13 00:00:00 IST 2014,10893475,Success,GetTransriskScore (TransUnion),311
+Thu Feb 13 00:00:00 IST 2014,10893475,Success,PullAutoInsuranceScore,601
+Thu Feb 13 00:00:00 IST 2014,10893475,Success,PullHomeInsuranceScore,291
+Thu Feb 13 00:00:00 IST 2014,10893475,Success,Subscribe (TransUnion),192
+Thu Feb 13 00:00:00 IST 2014,10893475,Success,Subscribe (Experian),550
+Thu Feb 13 00:00:00 IST 2014,10893475,Success,Subscribe (Equifax),496
+Thu Feb 13 00:00:00 IST 2014,10893476,Success,PullCreditReport (TransUnion),823
+Thu Feb 13 00:00:00 IST 2014,10893476,Success,GetTransriskScore (TransUnion),528
+Thu Feb 13 00:00:00 IST 2014,10893476,Success,PullAutoInsuranceScore,344
+Thu Feb 13 00:00:00 IST 2014,10893476,Success,Subscribe (TransUnion),640
+Thu Feb 13 00:00:00 IST 2014,10893477,Success,PullCreditReport (TransUnion),874
+Thu Feb 13 00:00:00 IST 2014,10893477,Success,GetTransriskScore (TransUnion),313
+Thu Feb 13 00:00:00 IST 2014,10893477,Success,PullAutoInsuranceScore,263
+Thu Feb 13 00:00:00 IST 2014,10893477,Success,Subscribe (TransUnion),653
+Thu Feb 13 00:00:00 IST 2014,10893477,Success,GetQuestionsFromTUBureauData,1379
+Thu Feb 13 00:00:00 IST 2014,10893477,Success,Subscribe (TransUnion),797
+Thu Feb 13 00:00:00 IST 2014,10893477,Success,UnsubscribeRequest (TransUnion),420
+Thu Feb 13 00:00:00 IST 2014,10893478,Success,Subscribe (TransUnion),367
+Thu Feb 13 00:00:00 IST 2014,10893478,Success,Subscribe (Experian),267
+Thu Feb 13 00:00:00 IST 2014,10893478,Success,Subscribe (Equifax),150
+Thu Feb 13 00:00:00 IST 2014,10893479,Success,Subscribe (TransUnion),940
+Thu Feb 13 00:00:00 IST 2014,10893479,Success,Subscribe (Experian),330
+Thu Feb 13 00:00:00 IST 2014,10893479,Success,Subscribe (Equifax),145
+Thu Feb 13 00:00:00 IST 2014,10893479,Success,GetQuestionsFromReport,333
+Thu Feb 13 00:00:00 IST 2014,10893479,Success,Pull3BureauCreditReport,1093
+Thu Feb 13 00:00:00 IST 2014,10893479,Success,GetTransriskScore (Experian),915
+Thu Feb 13 00:00:00 IST 2014,10893479,Success,GetTransriskScore (Equifax),68
+Thu Feb 13 00:00:00 IST 2014,10893479,Success,GetTransriskScore (TransUnion),227
+Thu Feb 13 00:00:00 IST 2014,10893479,Success,PullAutoInsuranceScore,248
+Thu Feb 13 00:00:00 IST 2014,10893479,Success,PullHomeInsuranceScore,634
+Thu Feb 13 00:00:00 IST 2014,10893479,Success,Subscribe (TransUnion),758
+Thu Feb 13 00:00:00 IST 2014,10893479,Success,UnsubscribeRequest (TransUnion),371
+Thu Feb 13 00:00:00 IST 2014,10893479,Success,Subscribe (Experian),195
+Thu Feb 13 00:00:00 IST 2014,10893479,Success,UnsubscribeRequest (Experian),996
+Thu Feb 13 00:00:00 IST 2014,10893479,Success,Subscribe (Equifax),280
+Thu Feb 13 00:00:00 IST 2014,10893479,Success,UnsubscribeRequest (Equifax),727
+Thu Feb 13 00:00:00 IST 2014,10893473,Success,PullCreditReport (TransUnion),463
+Thu Feb 13 00:00:00 IST 2014,10893473,Success,GetTransriskScore (TransUnion),734
+Thu Feb 13 00:00:00 IST 2014,10893473,Success,PullHomeInsuranceScore,954
+Thu Feb 13 00:00:00 IST 2014,10893473,Success,Subscribe (TransUnion),1023
+Thu Feb 13 00:00:00 IST 2014,10893474,Success,PullCreditReport (TransUnion),556
+Thu Feb 13 00:00:00 IST 2014,10893474,Success,GetTransriskScore (TransUnion),887
+Thu Feb 13 00:00:00 IST 2014,10893474,Success,PullHomeInsuranceScore,952
+Thu Feb 13 00:00:00 IST 2014,10893474,Success,Subscribe (TransUnion),491
+Thu Feb 13 00:00:00 IST 2014,10893475,Success,Pull3BureauCreditReport,965
+Thu Feb 13 00:00:00 IST 2014,10893475,Success,GetTransriskScore (Experian),901
+Thu Feb 13 00:00:00 IST 2014,10893475,Success,GetTransriskScore (Equifax),958
+Thu Feb 13 00:00:00 IST 2014,10893475,Success,GetTransriskScore (TransUnion),311
+Thu Feb 13 00:00:00 IST 2014,10893475,Success,PullAutoInsuranceScore,601
+Thu Feb 13 00:00:00 IST 2014,10893475,Success,PullHomeInsuranceScore,291
+Thu Feb 13 00:00:00 IST 2014,10893475,Success,Subscribe (TransUnion),192
+Thu Feb 13 00:00:00 IST 2014,10893475,Success,Subscribe (Experian),550
+Thu Feb 13 00:00:00 IST 2014,10893475,Success,Subscribe (Equifax),496
+Thu Feb 13 00:00:00 IST 2014,10893476,Success,PullCreditReport (TransUnion),823
+Thu Feb 13 00:00:00 IST 2014,10893476,Success,GetTransriskScore (TransUnion),528
+Thu Feb 13 00:00:00 IST 2014,10893476,Success,PullAutoInsuranceScore,344
+Thu Feb 13 00:00:00 IST 2014,10893476,Success,Subscribe (TransUnion),640
+Thu Feb 13 00:00:00 IST 2014,10893477,Success,PullCreditReport (TransUnion),874
+Thu Feb 13 00:00:00 IST 2014,10893477,Success,GetTransriskScore (TransUnion),313
+Thu Feb 13 00:00:00 IST 2014,10893477,Success,PullAutoInsuranceScore,263
+Thu Feb 13 00:00:00 IST 2014,10893477,Success,Subscribe (TransUnion),653
+Thu Feb 13 00:00:00 IST 2014,10893477,Success,GetQuestionsFromTUBureauData,1379
+Thu Feb 13 00:00:00 IST 2014,10893477,Success,Subscribe (TransUnion),797
+Thu Feb 13 00:00:00 IST 2014,10893477,Success,UnsubscribeRequest (TransUnion),420
+Thu Feb 13 00:00:00 IST 2014,10893478,Success,Subscribe (TransUnion),367
+Thu Feb 13 00:00:00 IST 2014,10893478,Success,Subscribe (Experian),267
+Thu Feb 13 00:00:00 IST 2014,10893478,Success,Subscribe (Equifax),150
+Thu Feb 13 00:00:00 IST 2014,10893479,Success,Subscribe (TransUnion),940
+Thu Feb 13 00:00:00 IST 2014,10893479,Success,Subscribe (Experian),330
+Thu Feb 13 00:00:00 IST 2014,10893479,Success,Subscribe (Equifax),145
+Thu Feb 13 00:00:00 IST 2014,10893479,Success,GetQuestionsFromReport,333
+Thu Feb 13 00:00:00 IST 2014,10893479,Success,Pull3BureauCreditReport,1093
+Thu Feb 13 00:00:00 IST 2014,10893479,Success,GetTransriskScore (Experian),915
+Thu Feb 13 00:00:00 IST 2014,10893479,Success,GetTransriskScore (Equifax),68
+Thu Feb 13 00:00:00 IST 2014,10893479,Success,GetTransriskScore (TransUnion),227
+Thu Feb 13 00:00:00 IST 2014,10893479,Success,PullAutoInsuranceScore,248
+Thu Feb 13 00:00:00 IST 2014,10893479,Success,PullHomeInsuranceScore,634
+Thu Feb 13 00:00:00 IST 2014,10893479,Success,Subscribe (TransUnion),758
+Thu Feb 13 00:00:00 IST 2014,10893479,Success,UnsubscribeRequest (TransUnion),371
+Thu Feb 13 00:00:00 IST 2014,10893479,Success,Subscribe (Experian),195
+Thu Feb 13 00:00:00 IST 2014,10893479,Success,UnsubscribeRequest (Experian),996
+Thu Feb 13 00:00:00 IST 2014,10893479,Success,Subscribe (Equifax),280
+Thu Feb 13 00:00:00 IST 2014,10893479,Success,UnsubscribeRequest (Equifax),727
+Thu Feb 13 00:00:00 IST 2014,10893473,Success,PullCreditReport (TransUnion),463
+Thu Feb 13 00:00:00 IST 2014,10893473,Success,GetTransriskScore (TransUnion),734
+Thu Feb 13 00:00:00 IST 2014,10893473,Success,PullHomeInsuranceScore,954
+Thu Feb 13 00:00:00 IST 2014,10893473,Success,Subscribe (TransUnion),1023
+Thu Feb 13 00:00:00 IST 2014,10893474,Success,PullCreditReport (TransUnion),556
+Thu Feb 13 00:00:00 IST 2014,10893474,Success,GetTransriskScore (TransUnion),887
+Thu Feb 13 00:00:00 IST 2014,10893474,Success,PullHomeInsuranceScore,952
+Thu Feb 13 00:00:00 IST 2014,10893474,Success,Subscribe (TransUnion),491
+Thu Feb 13 00:00:00 IST 2014,10893475,Success,Pull3BureauCreditReport,965
+Thu Feb 13 00:00:00 IST 2014,10893475,Success,GetTransriskScore (Experian),901
+Thu Feb 13 00:00:00 IST 2014,10893475,Success,GetTransriskScore (Equifax),958
+Thu Feb 13 00:00:00 IST 2014,10893475,Success,GetTransriskScore (TransUnion),311
+Thu Feb 13 00:00:00 IST 2014,10893475,Success,PullAutoInsuranceScore,601
+Thu Feb 13 00:00:00 IST 2014,10893475,Success,PullHomeInsuranceScore,291
+Thu Feb 13 00:00:00 IST 2014,10893475,Success,Subscribe (TransUnion),192
+Thu Feb 13 00:00:00 IST 2014,10893475,Success,Subscribe (Experian),550
+Thu Feb 13 00:00:00 IST 2014,10893475,Success,Subscribe (Equifax),496
+Thu Feb 13 00:00:00 IST 2014,10893476,Success,PullCreditReport (TransUnion),823
+Thu Feb 13 00:00:00 IST 2014,10893476,Success,GetTransriskScore (TransUnion),528
+Thu Feb 13 00:00:00 IST 2014,10893476,Success,PullAutoInsuranceScore,344
+Thu Feb 13 00:00:00 IST 2014,10893476,Success,Subscribe (TransUnion),640
+Thu Feb 13 00:00:00 IST 2014,10893477,Success,PullCreditReport (TransUnion),874
+Thu Feb 13 00:00:00 IST 2014,10893477,Success,GetTransriskScore (TransUnion),313
+Thu Feb 13 00:00:00 IST 2014,10893477,Success,PullAutoInsuranceScore,263
+Thu Feb 13 00:00:00 IST 2014,10893477,Success,Subscribe (TransUnion),653
+Thu Feb 13 00:00:00 IST 2014,10893477,Success,GetQuestionsFromTUBureauData,1379
+Thu Feb 13 00:00:00 IST 2014,10893477,Success,Subscribe (TransUnion),797
+Thu Feb 13 00:00:00 IST 2014,10893477,Success,UnsubscribeRequest (TransUnion),420
+Thu Feb 13 00:00:00 IST 2014,10893478,Success,Subscribe (TransUnion),367
+Thu Feb 13 00:00:00 IST 2014,10893478,Success,Subscribe (Experian),267
+Thu Feb 13 00:00:00 IST 2014,10893478,Success,Subscribe (Equifax),150
+Thu Feb 13 00:00:00 IST 2014,10893479,Success,Subscribe (TransUnion),940
+Thu Feb 13 00:00:00 IST 2014,10893479,Success,Subscribe (Experian),330
+Thu Feb 13 00:00:00 IST 2014,10893479,Success,Subscribe (Equifax),145
+Thu Feb 13 00:00:00 IST 2014,10893479,Success,GetQuestionsFromReport,333
+Thu Feb 13 00:00:00 IST 2014,10893479,Success,Pull3BureauCreditReport,1093
+Thu Feb 13 00:00:00 IST 2014,10893479,Success,GetTransriskScore (Experian),915
+Thu Feb 13 00:00:00 IST 2014,10893479,Success,GetTransriskScore (Equifax),68
+Thu Feb 13 00:00:00 IST 2014,10893479,Success,GetTransriskScore (TransUnion),227
+Thu Feb 13 00:00:00 IST 2014,10893479,Success,PullAutoInsuranceScore,248
+Thu Feb 13 00:00:00 IST 2014,10893479,Success,PullHomeInsuranceScore,634
+Thu Feb 13 00:00:00 IST 2014,10893479,Success,Subscribe (TransUnion),758
+Thu Feb 13 00:00:00 IST 2014,10893479,Success,UnsubscribeRequest (TransUnion),371
+Thu Feb 13 00:00:00 IST 2014,10893479,Success,Subscribe (Experian),195
+Thu Feb 13 00:00:00 IST 2014,10893479,Success,UnsubscribeRequest (Experian),996
+Thu Feb 13 00:00:00 IST 2014,10893479,Success,Subscribe (Equifax),280
+Thu Feb 13 00:00:00 IST 2014,10893479,Success,UnsubscribeRequest (Equifax),727
+Thu Feb 13 00:00:00 IST 2014,10893473,Success,PullCreditReport (TransUnion),463
+Thu Feb 13 00:00:00 IST 2014,10893473,Success,GetTransriskScore (TransUnion),734
+Thu Feb 13 00:00:00 IST 2014,10893473,Success,PullHomeInsuranceScore,954
+Thu Feb 13 00:00:00 IST 2014,10893473,Success,Subscribe (TransUnion),1023
+Thu Feb 13 00:00:00 IST 2014,10893474,Success,PullCreditReport (TransUnion),556
+Thu Feb 13 00:00:00 IST 2014,10893474,Success,GetTransriskScore (TransUnion),887
+Thu Feb 13 00:00:00 IST 2014,10893474,Success,PullHomeInsuranceScore,952
+Thu Feb 13 00:00:00 IST 2014,10893474,Success,Subscribe (TransUnion),491
+Thu Feb 13 00:00:00 IST 2014,10893475,Success,Pull3BureauCreditReport,965
+Thu Feb 13 00:00:00 IST 2014,10893475,Success,GetTransriskScore (Experian),901
+Thu Feb 13 00:00:00 IST 2014,10893475,Success,GetTransriskScore (Equifax),958
+Thu Feb 13 00:00:00 IST 2014,10893475,Success,GetTransriskScore (TransUnion),311
+Thu Feb 13 00:00:00 IST 2014,10893475,Success,PullAutoInsuranceScore,601
+Thu Feb 13 00:00:00 IST 2014,10893475,Success,PullHomeInsuranceScore,291
+Thu Feb 13 00:00:00 IST 2014,10893475,Success,Subscribe (TransUnion),192
+Thu Feb 13 00:00:00 IST 2014,10893475,Success,Subscribe (Experian),550
+Thu Feb 13 00:00:00 IST 2014,10893475,Success,Subscribe (Equifax),496
+Thu Feb 13 00:00:00 IST 2014,10893476,Success,PullCreditReport (TransUnion),823
+Thu Feb 13 00:00:00 IST 2014,10893476,Success,GetTransriskScore (TransUnion),528
+Thu Feb 13 00:00:00 IST 2014,10893476,Success,PullAutoInsuranceScore,344
+Thu Feb 13 00:00:00 IST 2014,10893476,Success,Subscribe (TransUnion),640
+Thu Feb 13 00:00:00 IST 2014,10893477,Success,PullCreditReport (TransUnion),874
+Thu Feb 13 00:00:00 IST 2014,10893477,Success,GetTransriskScore (TransUnion),313
+Thu Feb 13 00:00:00 IST 2014,10893477,Success,PullAutoInsuranceScore,263
+Thu Feb 13 00:00:00 IST 2014,10893477,Success,Subscribe (TransUnion),653
+Thu Feb 13 00:00:00 IST 2014,10893477,Success,GetQuestionsFromTUBureauData,1379
+Thu Feb 13 00:00:00 IST 2014,10893477,Success,Subscribe (TransUnion),797
+Thu Feb 13 00:00:00 IST 2014,10893477,Success,UnsubscribeRequest (TransUnion),420
+Thu Feb 13 00:00:00 IST 2014,10893478,Success,Subscribe (TransUnion),367
+Thu Feb 13 00:00:00 IST 2014,10893478,Success,Subscribe (Experian),267
+Thu Feb 13 00:00:00 IST 2014,10893478,Success,Subscribe (Equifax),150
+Thu Feb 13 00:00:00 IST 2014,10893479,Success,Subscribe (TransUnion),940
+Thu Feb 13 00:00:00 IST 2014,10893479,Success,Subscribe (Experian),330
+Thu Feb 13 00:00:00 IST 2014,10893479,Success,Subscribe (Equifax),145
+Thu Feb 13 00:00:00 IST 2014,10893479,Success,GetQuestionsFromReport,333
+Thu Feb 13 00:00:00 IST 2014,10893479,Success,Pull3BureauCreditReport,1093
+Thu Feb 13 00:00:00 IST 2014,10893479,Success,GetTransriskScore (Experian),915
+Thu Feb 13 00:00:00 IST 2014,10893479,Success,GetTransriskScore (Equifax),68
+Thu Feb 13 00:00:00 IST 2014,10893479,Success,GetTransriskScore (TransUnion),227
+Thu Feb 13 00:00:00 IST 2014,10893479,Success,PullAutoInsuranceScore,248
+Thu Feb 13 00:00:00 IST 2014,10893479,Success,PullHomeInsuranceScore,634
+Thu Feb 13 00:00:00 IST 2014,10893479,Success,Subscribe (TransUnion),758
+Thu Feb 13 00:00:00 IST 2014,10893479,Success,UnsubscribeRequest (TransUnion),371
+Thu Feb 13 00:00:00 IST 2014,10893479,Success,Subscribe (Experian),195
+Thu Feb 13 00:00:00 IST 2014,10893479,Success,UnsubscribeRequest (Experian),996
+Thu Feb 13 00:00:00 IST 2014,10893479,Success,Subscribe (Equifax),280
+Thu Feb 13 00:00:00 IST 2014,10893479,Success,UnsubscribeRequest (Equifax),727
+Thu Feb 13 00:00:00 IST 2014,10893473,Success,PullCreditReport (TransUnion),463
+Thu Feb 13 00:00:00 IST 2014,10893473,Success,GetTransriskScore (TransUnion),734
+Thu Feb 13 00:00:00 IST 2014,10893473,Success,PullHomeInsuranceScore,954
+Thu Feb 13 00:00:00 IST 2014,10893473,Success,Subscribe (TransUnion),1023
+Thu Feb 13 00:00:00 IST 2014,10893474,Success,PullCreditReport (TransUnion),556
+Thu Feb 13 00:00:00 IST 2014,10893474,Success,GetTransriskScore (TransUnion),887
+Thu Feb 13 00:00:00 IST 2014,10893474,Success,PullHomeInsuranceScore,952
+Thu Feb 13 00:00:00 IST 2014,10893474,Success,Subscribe (TransUnion),491
+Thu Feb 13 00:00:00 IST 2014,10893475,Success,Pull3BureauCreditReport,965
+Thu Feb 13 00:00:00 IST 2014,10893475,Success,GetTransriskScore (Experian),901
+Thu Feb 13 00:00:00 IST 2014,10893475,Success,GetTransriskScore (Equifax),958
+Thu Feb 13 00:00:00 IST 2014,10893475,Success,GetTransriskScore (TransUnion),311
+Thu Feb 13 00:00:00 IST 2014,10893475,Success,PullAutoInsuranceScore,601
+Thu Feb 13 00:00:00 IST 2014,10893475,Success,PullHomeInsuranceScore,291
+Thu Feb 13 00:00:00 IST 2014,10893475,Success,Subscribe (TransUnion),192
+Thu Feb 13 00:00:00 IST 2014,10893475,Success,Subscribe (Experian),550
+Thu Feb 13 00:00:00 IST 2014,10893475,Success,Subscribe (Equifax),496
+Thu Feb 13 00:00:00 IST 2014,10893476,Success,PullCreditReport (TransUnion),823
+Thu Feb 13 00:00:00 IST 2014,10893476,Success,GetTransriskScore (TransUnion),528
+Thu Feb 13 00:00:00 IST 2014,10893476,Success,PullAutoInsuranceScore,344
+Thu Feb 13 00:00:00 IST 2014,10893476,Success,Subscribe (TransUnion),640
+Thu Feb 13 00:00:00 IST 2014,10893477,Success,PullCreditReport (TransUnion),874
+Thu Feb 13 00:00:00 IST 2014,10893477,Success,GetTransriskScore (TransUnion),313
+Thu Feb 13 00:00:00 IST 2014,10893477,Success,PullAutoInsuranceScore,263
+Thu Feb 13 00:00:00 IST 2014,10893477,Success,Subscribe (TransUnion),653
+Thu Feb 13 00:00:00 IST 2014,10893477,Success,GetQuestionsFromTUBureauData,1379
+Thu Feb 13 00:00:00 IST 2014,10893477,Success,Subscribe (TransUnion),797
+Thu Feb 13 00:00:00 IST 2014,10893477,Success,UnsubscribeRequest (TransUnion),420
+Thu Feb 13 00:00:00 IST 2014,10893478,Success,Subscribe (TransUnion),367
+Thu Feb 13 00:00:00 IST 2014,10893478,Success,Subscribe (Experian),267
+Thu Feb 13 00:00:00 IST 2014,10893478,Success,Subscribe (Equifax),150
+Thu Feb 13 00:00:00 IST 2014,10893479,Success,Subscribe (TransUnion),940
+Thu Feb 13 00:00:00 IST 2014,10893479,Success,Subscribe (Experian),330
+Thu Feb 13 00:00:00 IST 2014,10893479,Success,Subscribe (Equifax),145
+Thu Feb 13 00:00:00 IST 2014,10893479,Success,GetQuestionsFromReport,333
+Thu Feb 13 00:00:00 IST 2014,10893479,Success,Pull3BureauCreditReport,1093
+Thu Feb 13 00:00:00 IST 2014,10893479,Success,GetTransriskScore (Experian),915
+Thu Feb 13 00:00:00 IST 2014,10893479,Success,GetTransriskScore (Equifax),68
+Thu Feb 13 00:00:00 IST 2014,10893479,Success,GetTransriskScore (TransUnion),227
+Thu Feb 13 00:00:00 IST 2014,10893479,Success,PullAutoInsuranceScore,248
+Thu Feb 13 00:00:00 IST 2014,10893479,Success,PullHomeInsuranceScore,634
+Thu Feb 13 00:00:00 IST 2014,10893479,Success,Subscribe (TransUnion),758
+Thu Feb 13 00:00:00 IST 2014,10893479,Success,UnsubscribeRequest (TransUnion),371
+Thu Feb 13 00:00:00 IST 2014,10893479,Success,Subscribe (Experian),195
+Thu Feb 13 00:00:00 IST 2014,10893479,Success,UnsubscribeRequest (Experian),996
+Thu Feb 13 00:00:00 IST 2014,10893479,Success,Subscribe (Equifax),280
+Thu Feb 13 00:00:00 IST 2014,10893479,Success,UnsubscribeRequest (Equifax),727
+Thu Feb 13 00:00:00 IST 2014,10893473,Success,PullCreditReport (TransUnion),463
+Thu Feb 13 00:00:00 IST 2014,10893473,Success,GetTransriskScore (TransUnion),734
+Thu Feb 13 00:00:00 IST 2014,10893473,Success,PullHomeInsuranceScore,954
+Thu Feb 13 00:00:00 IST 2014,10893473,Success,Subscribe (TransUnion),1023
+Thu Feb 13 00:00:00 IST 2014,10893474,Success,PullCreditReport (TransUnion),556
+Thu Feb 13 00:00:00 IST 2014,10893474,Success,GetTransriskScore (TransUnion),887
+Thu Feb 13 00:00:00 IST 2014,10893474,Success,PullHomeInsuranceScore,952
+Thu Feb 13 00:00:00 IST 2014,10893474,Success,Subscribe (TransUnion),491
+Thu Feb 13 00:00:00 IST 2014,10893475,Success,Pull3BureauCreditReport,965
+Thu Feb 13 00:00:00 IST 2014,10893475,Success,GetTransriskScore (Experian),901
+Thu Feb 13 00:00:00 IST 2014,10893475,Success,GetTransriskScore (Equifax),958
+Thu Feb 13 00:00:00 IST 2014,10893475,Success,GetTransriskScore (TransUnion),311
+Thu Feb 13 00:00:00 IST 2014,10893475,Success,PullAutoInsuranceScore,601
+Thu Feb 13 00:00:00 IST 2014,10893475,Success,PullHomeInsuranceScore,291
+Thu Feb 13 00:00:00 IST 2014,10893475,Success,Subscribe (TransUnion),192
+Thu Feb 13 00:00:00 IST 2014,10893475,Success,Subscribe (Experian),550
+Thu Feb 13 00:00:00 IST 2014,10893475,Success,Subscribe (Equifax),496
+Thu Feb 13 00:00:00 IST 2014,10893476,Success,PullCreditReport (TransUnion),823
+Thu Feb 13 00:00:00 IST 2014,10893476,Success,GetTransriskScore (TransUnion),528
+Thu Feb 13 00:00:00 IST 2014,10893476,Success,PullAutoInsuranceScore,344
+Thu Feb 13 00:00:00 IST 2014,10893476,Success,Subscribe (TransUnion),640
+Thu Feb 13 00:00:00 IST 2014,10893477,Success,PullCreditReport (TransUnion),874
+Thu Feb 13 00:00:00 IST 2014,10893477,Success,GetTransriskScore (TransUnion),313
+Thu Feb 13 00:00:00 IST 2014,10893477,Success,PullAutoInsuranceScore,263
+Thu Feb 13 00:00:00 IST 2014,10893477,Success,Subscribe (TransUnion),653
+Thu Feb 13 00:00:00 IST 2014,10893477,Success,GetQuestionsFromTUBureauData,1379
+Thu Feb 13 00:00:00 IST 2014,10893477,Success,Subscribe (TransUnion),797
+Thu Feb 13 00:00:00 IST 2014,10893477,Success,UnsubscribeRequest (TransUnion),420
+Thu Feb 13 00:00:00 IST 2014,10893478,Success,Subscribe (TransUnion),367
+Thu Feb 13 00:00:00 IST 2014,10893478,Success,Subscribe (Experian),267
+Thu Feb 13 00:00:00 IST 2014,10893478,Success,Subscribe (Equifax),150
+Thu Feb 13 00:00:00 IST 2014,10893479,Success,Subscribe (TransUnion),940
+Thu Feb 13 00:00:00 IST 2014,10893479,Success,Subscribe (Experian),330
+Thu Feb 13 00:00:00 IST 2014,10893479,Success,Subscribe (Equifax),145
+Thu Feb 13 00:00:00 IST 2014,10893479,Success,GetQuestionsFromReport,333
+Thu Feb 13 00:00:00 IST 2014,10893479,Success,Pull3BureauCreditReport,1093
+Thu Feb 13 00:00:00 IST 2014,10893479,Success,GetTransriskScore (Experian),915
+Thu Feb 13 00:00:00 IST 2014,10893479,Success,GetTransriskScore (Equifax),68
+Thu Feb 13 00:00:00 IST 2014,10893479,Success,GetTransriskScore (TransUnion),227
+Thu Feb 13 00:00:00 IST 2014,10893479,Success,PullAutoInsuranceScore,248
+Thu Feb 13 00:00:00 IST 2014,10893479,Success,PullHomeInsuranceScore,634
+Thu Feb 13 00:00:00 IST 2014,10893479,Success,Subscribe (TransUnion),758
+Thu Feb 13 00:00:00 IST 2014,10893479,Success,UnsubscribeRequest (TransUnion),371
+Thu Feb 13 00:00:00 IST 2014,10893479,Success,Subscribe (Experian),195
+Thu Feb 13 00:00:00 IST 2014,10893479,Success,UnsubscribeRequest (Experian),996
+Thu Feb 13 00:00:00 IST 2014,10893479,Success,Subscribe (Equifax),280
+Thu Feb 13 00:00:00 IST 2014,10893479,Success,UnsubscribeRequest (Equifax),727
+Thu Feb 13 00:00:00 IST 2014,10893473,Success,PullCreditReport (TransUnion),463
+Thu Feb 13 00:00:00 IST 2014,10893473,Success,GetTransriskScore (TransUnion),734
+Thu Feb 13 00:00:00 IST 2014,10893473,Success,PullHomeInsuranceScore,954
+Thu Feb 13 00:00:00 IST 2014,10893473,Success,Subscribe (TransUnion),1023
+Thu Feb 13 00:00:00 IST 2014,10893474,Success,PullCreditReport (TransUnion),556
+Thu Feb 13 00:00:00 IST 2014,10893474,Success,GetTransriskScore (TransUnion),887
+Thu Feb 13 00:00:00 IST 2014,10893474,Success,PullHomeInsuranceScore,952
+Thu Feb 13 00:00:00 IST 2014,10893474,Success,Subscribe (TransUnion),491
+Thu Feb 13 00:00:00 IST 2014,10893475,Success,Pull3BureauCreditReport,965
+Thu Feb 13 00:00:00 IST 2014,10893475,Success,GetTransriskScore (Experian),901
+Thu Feb 13 00:00:00 IST 2014,10893475,Success,GetTransriskScore (Equifax),958
+Thu Feb 13 00:00:00 IST 2014,10893475,Success,GetTransriskScore (TransUnion),311
+Thu Feb 13 00:00:00 IST 2014,10893475,Success,PullAutoInsuranceScore,601
+Thu Feb 13 00:00:00 IST 2014,10893475,Success,PullHomeInsuranceScore,291
+Thu Feb 13 00:00:00 IST 2014,10893475,Success,Subscribe (TransUnion),192
+Thu Feb 13 00:00:00 IST 2014,10893475,Success,Subscribe (Experian),550
+Thu Feb 13 00:00:00 IST 2014,10893475,Success,Subscribe (Equifax),496
+Thu Feb 13 00:00:00 IST 2014,10893476,Success,PullCreditReport (TransUnion),823
+Thu Feb 13 00:00:00 IST 2014,10893476,Success,GetTransriskScore (TransUnion),528
+Thu Feb 13 00:00:00 IST 2014,10893476,Success,PullAutoInsuranceScore,344
+Thu Feb 13 00:00:00 IST 2014,10893476,Success,Subscribe (TransUnion),640
+Thu Feb 13 00:00:00 IST 2014,10893477,Success,PullCreditReport (TransUnion),874
+Thu Feb 13 00:00:00 IST 2014,10893477,Success,GetTransriskScore (TransUnion),313
+Thu Feb 13 00:00:00 IST 2014,10893477,Success,PullAutoInsuranceScore,263
+Thu Feb 13 00:00:00 IST 2014,10893477,Success,Subscribe (TransUnion),653
+Thu Feb 13 00:00:00 IST 2014,10893477,Success,GetQuestionsFromTUBureauData,1379
+Thu Feb 13 00:00:00 IST 2014,10893477,Success,Subscribe (TransUnion),797
+Thu Feb 13 00:00:00 IST 2014,10893477,Success,UnsubscribeRequest (TransUnion),420
+Thu Feb 13 00:00:00 IST 2014,10893478,Success,Subscribe (TransUnion),367
+Thu Feb 13 00:00:00 IST 2014,10893478,Success,Subscribe (Experian),267
+Thu Feb 13 00:00:00 IST 2014,10893478,Success,Subscribe (Equifax),150
+Thu Feb 13 00:00:00 IST 2014,10893479,Success,Subscribe (TransUnion),940
+Thu Feb 13 00:00:00 IST 2014,10893479,Success,Subscribe (Experian),330
+Thu Feb 13 00:00:00 IST 2014,10893479,Success,Subscribe (Equifax),145
+Thu Feb 13 00:00:00 IST 2014,10893479,Success,GetQuestionsFromReport,333
+Thu Feb 13 00:00:00 IST 2014,10893479,Success,Pull3BureauCreditReport,1093
+Thu Feb 13 00:00:00 IST 2014,10893479,Success,GetTransriskScore (Experian),915
+Thu Feb 13 00:00:00 IST 2014,10893479,Success,GetTransriskScore (Equifax),68
+Thu Feb 13 00:00:00 IST 2014,10893479,Success,GetTransriskScore (TransUnion),227
+Thu Feb 13 00:00:00 IST 2014,10893479,Success,PullAutoInsuranceScore,248
+Thu Feb 13 00:00:00 IST 2014,10893479,Success,PullHomeInsuranceScore,634
+Thu Feb 13 00:00:00 IST 2014,10893479,Success,Subscribe (TransUnion),758
+Thu Feb 13 00:00:00 IST 2014,10893479,Success,UnsubscribeRequest (TransUnion),371
+Thu Feb 13 00:00:00 IST 2014,10893479,Success,Subscribe (Experian),195
+Thu Feb 13 00:00:00 IST 2014,10893479,Success,UnsubscribeRequest (Experian),996
+Thu Feb 13 00:00:00 IST 2014,10893479,Success,Subscribe (Equifax),280
+Thu Feb 13 00:00:00 IST 2014,10893479,Success,UnsubscribeRequest (Equifax),727
+Thu Feb 13 00:00:00 IST 2014,10893473,Success,PullCreditReport (TransUnion),463
+Thu Feb 13 00:00:00 IST 2014,10893473,Success,GetTransriskScore (TransUnion),734
+Thu Feb 13 00:00:00 IST 2014,10893473,Success,PullHomeInsuranceScore,954
+Thu Feb 13 00:00:00 IST 2014,10893473,Success,Subscribe (TransUnion),1023
+Thu Feb 13 00:00:00 IST 2014,10893474,Success,PullCreditReport (TransUnion),556
+Thu Feb 13 00:00:00 IST 2014,10893474,Success,GetTransriskScore (TransUnion),887
+Thu Feb 13 00:00:00 IST 2014,10893474,Success,PullHomeInsuranceScore,952
+Thu Feb 13 00:00:00 IST 2014,10893474,Success,Subscribe (TransUnion),491
+Thu Feb 13 00:00:00 IST 2014,10893475,Success,Pull3BureauCreditReport,965
+Thu Feb 13 00:00:00 IST 2014,10893475,Success,GetTransriskScore (Experian),901
+Thu Feb 13 00:00:00 IST 2014,10893475,Success,GetTransriskScore (Equifax),958
+Thu Feb 13 00:00:00 IST 2014,10893475,Success,GetTransriskScore (TransUnion),311
+Thu Feb 13 00:00:00 IST 2014,10893475,Success,PullAutoInsuranceScore,601
+Thu Feb 13 00:00:00 IST 2014,10893475,Success,PullHomeInsuranceScore,291
+Thu Feb 13 00:00:00 IST 2014,10893475,Success,Subscribe (TransUnion),192
+Thu Feb 13 00:00:00 IST 2014,10893475,Success,Subscribe (Experian),550
+Thu Feb 13 00:00:00 IST 2014,10893475,Success,Subscribe (Equifax),496
+Thu Feb 13 00:00:00 IST 2014,10893476,Success,PullCreditReport (TransUnion),823
+Thu Feb 13 00:00:00 IST 2014,10893476,Success,GetTransriskScore (TransUnion),528
+Thu Feb 13 00:00:00 IST 2014,10893476,Success,PullAutoInsuranceScore,344
+Thu Feb 13 00:00:00 IST 2014,10893476,Success,Subscribe (TransUnion),640
+Thu Feb 13 00:00:00 IST 2014,10893477,Success,PullCreditReport (TransUnion),874
+Thu Feb 13 00:00:00 IST 2014,10893477,Success,GetTransriskScore (TransUnion),313
+Thu Feb 13 00:00:00 IST 2014,10893477,Success,PullAutoInsuranceScore,263
+Thu Feb 13 00:00:00 IST 2014,10893477,Success,Subscribe (TransUnion),653
+Thu Feb 13 00:00:00 IST 2014,10893477,Success,GetQuestionsFromTUBureauData,1379
+Thu Feb 13 00:00:00 IST 2014,10893477,Success,Subscribe (TransUnion),797
+Thu Feb 13 00:00:00 IST 2014,10893477,Success,UnsubscribeRequest (TransUnion),420
+Thu Feb 13 00:00:00 IST 2014,10893478,Success,Subscribe (TransUnion),367
+Thu Feb 13 00:00:00 IST 2014,10893478,Success,Subscribe (Experian),267
+Thu Feb 13 00:00:00 IST 2014,10893478,Success,Subscribe (Equifax),150
+Thu Feb 13 00:00:00 IST 2014,10893479,Success,Subscribe (TransUnion),940
+Thu Feb 13 00:00:00 IST 2014,10893479,Success,Subscribe (Experian),330
+Thu Feb 13 00:00:00 IST 2014,10893479,Success,Subscribe (Equifax),145
+Thu Feb 13 00:00:00 IST 2014,10893479,Success,GetQuestionsFromReport,333
+Thu Feb 13 00:00:00 IST 2014,10893479,Success,Pull3BureauCreditReport,1093
+Thu Feb 13 00:00:00 IST 2014,10893479,Success,GetTransriskScore (Experian),915
+Thu Feb 13 00:00:00 IST 2014,10893479,Success,GetTransriskScore (Equifax),68
+Thu Feb 13 00:00:00 IST 2014,10893479,Success,GetTransriskScore (TransUnion),227
+Thu Feb 13 00:00:00 IST 2014,10893479,Success,PullAutoInsuranceScore,248
+Thu Feb 13 00:00:00 IST 2014,10893479,Success,PullHomeInsuranceScore,634
+Thu Feb 13 00:00:00 IST 2014,10893479,Success,Subscribe (TransUnion),758
+Thu Feb 13 00:00:00 IST 2014,10893479,Success,UnsubscribeRequest (TransUnion),371
+Thu Feb 13 00:00:00 IST 2014,10893479,Success,Subscribe (Experian),195
+Thu Feb 13 00:00:00 IST 2014,10893479,Success,UnsubscribeRequest (Experian),996
+Thu Feb 13 00:00:00 IST 2014,10893479,Success,Subscribe (Equifax),280
+Thu Feb 13 00:00:00 IST 2014,10893479,Success,UnsubscribeRequest (Equifax),727
